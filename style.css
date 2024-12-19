@@ -75,6 +75,7 @@ body {
 .navbar2 {
   background-color: white;
   padding: 0.8rem 1.5rem;
+  height: 30px;
 }
 
 .nav-links {
@@ -149,11 +150,15 @@ body {
   display: flex;
   justify-content: flex-start; /* Aligns content to the left */
   align-items: center;
+  margin-top: 0;
+  padding: 0;
 }
 
 #left-image {
   width: 100%;
   height: 600px;
+  margin-top: 0;
+  position: relative;
 }
 
 .right {
@@ -178,4 +183,11 @@ body {
   font-size: medium;
   padding: 10px;
   border-color: #537188;
+  font-family: Arial, Helvetica, sans-serif;
 }
+.upload:hover {
+  background-color: #9bb8cd;
+  color: white;
+  border: white;
+}
+/*shop*/
